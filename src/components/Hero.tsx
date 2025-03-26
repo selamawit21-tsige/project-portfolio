@@ -34,7 +34,7 @@ const Hero = () => {
 
             <a
               href="/assets/resume.pdf"
-              download="My-Resume.pdf"
+              download="My-resume.pdf"
               className="inline-flex items-center px-6 py-3 text-lg font-medium text-blue-600 bg-blue-100 rounded-lg hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-300 dark:hover:bg-blue-800 transition-colors"
             >
               Download CV
