@@ -39,7 +39,7 @@ function App() {
               animate={{ x: 0, opacity: 1 }}
               className="text-xl font-bold text-gray-900 dark:text-white"
             >
-              Portfolio
+             
             </motion.span>
             <div className="flex items-center space-x-6">
               <div className="flex space-x-4">
