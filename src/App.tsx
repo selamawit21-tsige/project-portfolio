@@ -38,9 +38,7 @@ function App() {
               initial={{ x: -20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               className="text-xl font-bold text-gray-900 dark:text-white"
-            >
-             
-            </motion.span>
+            ></motion.span>
             <div className="flex items-center space-x-6">
               <div className="flex space-x-4">
                 <a

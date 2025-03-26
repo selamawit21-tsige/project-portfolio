@@ -1,12 +1,24 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Code, Palette, Brain } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Code, Palette, Brain } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { icon: <Code className="w-6 h-6" />, title: 'Development', description: 'Proficient in React, Node.js, and modern web technologies' },
-    { icon: <Palette className="w-6 h-6" />, title: 'Design', description: 'Creating beautiful and intuitive user interfaces' },
-    { icon: <Brain className="w-6 h-6" />, title: 'Problem Solving', description: 'Analytical approach to solving complex challenges' },
+    {
+      icon: <Code className="w-6 h-6" />,
+      title: "Development",
+      description: "Proficient in React, Node.js, and modern web technologies",
+    },
+    {
+      icon: <Palette className="w-6 h-6" />,
+      title: "Design",
+      description: "Creating beautiful and intuitive user interfaces",
+    },
+    {
+      icon: <Brain className="w-6 h-6" />,
+      title: "Problem Solving",
+      description: "Analytical approach to solving complex challenges",
+    },
   ];
 
   return (
@@ -19,10 +31,13 @@ const About = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">About Me</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            About Me
+          </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm a passionate developer with experience in building modern web applications.
-            I love creating elegant solutions and learning new technologies.
+            I'm a passionate developer with experience in building modern web
+            applications. I love creating elegant solutions and learning new
+            technologies.
           </p>
         </motion.div>
 
@@ -36,9 +51,15 @@ const About = () => {
               viewport={{ once: true }}
               className="p-6 bg-gray-50 dark:bg-gray-700 rounded-lg"
             >
-              <div className="text-blue-600 dark:text-blue-400 mb-4">{skill.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">{skill.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300">{skill.description}</p>
+              <div className="text-blue-600 dark:text-blue-400 mb-4">
+                {skill.icon}
+              </div>
+              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
+                {skill.title}
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300">
+                {skill.description}
+              </p>
             </motion.div>
           ))}
         </div>

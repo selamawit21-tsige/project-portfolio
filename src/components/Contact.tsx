@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -13,7 +13,9 @@ const Contact = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            Get in Touch
+          </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
             I'm always open to new opportunities and interesting projects.
           </p>
@@ -29,7 +31,10 @@ const Contact = () => {
           >
             <form>
               <div className="mb-6">
-                <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                >
                   Name
                 </label>
                 <input
@@ -39,7 +44,10 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                >
                   Email
                 </label>
                 <input
@@ -49,7 +57,10 @@ const Contact = () => {
                 />
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2"
+                >
                   Message
                 </label>
                 <textarea
@@ -77,22 +88,34 @@ const Contact = () => {
             <div className="flex items-start">
               <Mail className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900 dark:text-white">Email</h3>
-                <p className="text-gray-600 dark:text-gray-300">tsigeselamawit925@gmail.com</p>
+                <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+                  Email
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  tsigeselamawit925@gmail.com
+                </p>
               </div>
             </div>
             <div className="flex items-start">
               <Phone className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900 dark:text-white">Phone</h3>
-                <p className="text-gray-600 dark:text-gray-300">+251 (991) 439-198</p>
+                <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+                  Phone
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  +251 (991) 439-198
+                </p>
               </div>
             </div>
             <div className="flex items-start">
               <MapPin className="w-6 h-6 text-blue-600 dark:text-blue-400 mt-1" />
               <div className="ml-4">
-                <h3 className="text-lg font-medium text-gray-900 dark:text-white">Location</h3>
-                <p className="text-gray-600 dark:text-gray-300">Addis Abeba, Ethiopia</p>
+                <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+                  Location
+                </h3>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Addis Abeba, Ethiopia
+                </p>
               </div>
             </div>
           </motion.div>

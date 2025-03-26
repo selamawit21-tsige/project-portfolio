@@ -14,7 +14,9 @@ const Hero = () => {
         >
           <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white mb-6">
             Hi, I'm{" "}
-            <span className="text-blue-600 dark:text-blue-400">selamawit Tsige</span>
+            <span className="text-blue-600 dark:text-blue-400">
+              selamawit Tsige
+            </span>
           </h1>
 
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-8">
@@ -31,8 +33,8 @@ const Hero = () => {
             </a>
 
             <a
-              href="/public/assets/resume.pdf"
-              download="YourName-Resume.pdf"
+              href="/assets/resume.pdf"
+              download="My-Resume.pdf"
               className="inline-flex items-center px-6 py-3 text-lg font-medium text-blue-600 bg-blue-100 rounded-lg hover:bg-blue-200 dark:bg-blue-900 dark:text-blue-300 dark:hover:bg-blue-800 transition-colors"
             >
               Download CV

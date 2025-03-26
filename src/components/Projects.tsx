@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import React from "react";
+import { motion } from "framer-motion";
+import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -49,9 +49,12 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">My Projects</h2>
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            My Projects
+          </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-            Here are some of my recent projects that showcase my skills and experience.
+            Here are some of my recent projects that showcase my skills and
+            experience.
           </p>
         </motion.div>
 
